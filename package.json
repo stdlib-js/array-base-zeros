@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-zeros",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a zero-filled generic array.",
   "license": "Apache-2.0",
   "author": {
