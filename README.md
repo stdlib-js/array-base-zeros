@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.zeros;
+})();
 })();
 </script>
 ```
@@ -103,6 +105,7 @@ var out = zeros( 3 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@umd/browser.js"></script>
 <script type="text/javascript">
+(function () {
 (function () {.ndarray;
 var zeros = require( '@stdlib/array-base-zeros' );
 
@@ -119,6 +122,7 @@ gfill( 2, 5.0, arr, 1, 8 );
 console.log( arr );
 // => [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0 ]
 
+})();
 })();
 </script>
 </body>
