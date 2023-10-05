@@ -40,7 +40,7 @@
     "@stdlib/array-base-filled": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.1.0",
+    "@stdlib/assert-is-array": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/blas-ext-base-gfill": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.1.0",
