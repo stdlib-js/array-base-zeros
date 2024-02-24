@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-zeros",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create a zero-filled generic array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,16 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-filled": "^0.2.0"
+    "@stdlib/array-base-filled": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/blas-ext-base-gfill": "^0.1.0",
-    "@stdlib/math-base-special-pow": "^0.1.0",
+    "@stdlib/assert-is-array": "^0.2.1",
+    "@stdlib/blas-ext-base-gfill": "^0.2.0",
+    "@stdlib/math-base-special-pow": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.0"
+    "@stdlib/bench-harness": "^0.2.1"
   },
   "engines": {
     "node": ">=0.10.0",
