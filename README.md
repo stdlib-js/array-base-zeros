@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@deno/mod.js';
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@v0.2.2-deno/mod.js';
 ```
 
 #### zeros( len )
@@ -86,7 +86,7 @@ var out = zeros( 3 );
 
 ```javascript
 var gfill = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill' ).ndarray;
-import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@deno/mod.js';
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@v0.2.2-deno/mod.js';
 
 // Create a zero-filled array:
 var arr = zeros( 10 );
