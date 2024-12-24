@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-zeros
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-zeros = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var zeros = require( 'path/to/vendor/umd/array-base-zeros/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.zeros;
-})();
-</script>
+var zeros = require( '@stdlib/array-base-zeros' );
 ```
 
 #### zeros( len )
@@ -108,13 +102,8 @@ var out = zeros( 3 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.ndarray;
+```javascript
+var gfill = require( '@stdlib/blas-ext-base-gfill' ).ndarray;
 var zeros = require( '@stdlib/array-base-zeros' );
 
 // Create a zero-filled array:
@@ -129,11 +118,6 @@ gfill( 2, 5.0, arr, 1, 8 );
 
 console.log( arr );
 // => [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0 ]
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -151,6 +135,17 @@ console.log( arr );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/ones`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a generic array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros2d`][@stdlib/array/base/zeros2d]</span><span class="delimiter">: </span><span class="description">create a zero-filled two-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros3d`][@stdlib/array/base/zeros3d]</span><span class="delimiter">: </span><span class="description">create a zero-filled three-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros4d`][@stdlib/array/base/zeros4d]</span><span class="delimiter">: </span><span class="description">create a zero-filled four-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros5d`][@stdlib/array/base/zeros5d]</span><span class="delimiter">: </span><span class="description">create a zero-filled five-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zerosnd`][@stdlib/array/base/zerosnd]</span><span class="delimiter">: </span><span class="description">create a zero-filled n-dimensional nested array.</span>
 
 </section>
 
@@ -227,6 +222,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-zeros/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-zeros/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d
+
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+
+[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d
+
+[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d
+
+[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd
+
+<!-- </related-links> -->
 
 </section>
 
