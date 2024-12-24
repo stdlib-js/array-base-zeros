@@ -136,6 +136,17 @@ console.log( arr );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/ones`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a generic array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros2d`][@stdlib/array/base/zeros2d]</span><span class="delimiter">: </span><span class="description">create a zero-filled two-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros3d`][@stdlib/array/base/zeros3d]</span><span class="delimiter">: </span><span class="description">create a zero-filled three-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros4d`][@stdlib/array/base/zeros4d]</span><span class="delimiter">: </span><span class="description">create a zero-filled four-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zeros5d`][@stdlib/array/base/zeros5d]</span><span class="delimiter">: </span><span class="description">create a zero-filled five-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/zerosnd`][@stdlib/array/base/zerosnd]</span><span class="delimiter">: </span><span class="description">create a zero-filled n-dimensional nested array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -211,6 +222,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-zeros/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-zeros/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d
+
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+
+[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d
+
+[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d
+
+[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd
+
+<!-- </related-links> -->
 
 </section>
 
